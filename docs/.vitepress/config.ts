@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   lang: 'zh-CN',
+  base: '/elemehuodongtuiguang/',
   title: '饿了么活动推广知识',
   description: '围绕饿了么平台的活动运营与推广策略，提供结构化的实操指南。',
   lastUpdated: true,
