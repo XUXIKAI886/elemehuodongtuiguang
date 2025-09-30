@@ -1,0 +1,10 @@
+# 项目依赖目录
+node_modules/
+
+# VitePress 构建产物
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# 日志与临时文件
+server.log
+npm-debug.log*

@@ -1,0 +1,39 @@
+<svg width="960" height="480" viewBox="0 0 960 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a84ff" />
+      <stop offset="100%" stop-color="#72d6ff" />
+    </linearGradient>
+    <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9f0a" />
+      <stop offset="100%" stop-color="#ffd56f" />
+    </linearGradient>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="960" height="480" rx="32" ry="32" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip)" fill="none">
+    <rect width="960" height="480" fill="#f5fbff" />
+    <path d="M0 360 C200 320 280 520 520 420 C760 320 820 520 960 440 V480 H0 Z" fill="url(#g1)" opacity="0.25" />
+    <path d="M0 120 C220 200 320 -20 600 100 C800 180 880 40 960 80 V0 H0 Z" fill="url(#g2)" opacity="0.15" />
+    <g fill="#0a357a" opacity="0.05">
+      <circle cx="180" cy="140" r="72" />
+      <circle cx="760" cy="96" r="64" />
+      <circle cx="640" cy="360" r="90" />
+    </g>
+    <g fill="#ffffff" stroke="#0a84ff" stroke-width="2" opacity="0.85">
+      <rect x="160" y="168" width="260" height="160" rx="20" />
+      <rect x="540" y="200" width="220" height="140" rx="20" />
+    </g>
+    <g fill="#0a84ff" opacity="0.8">
+      <circle cx="260" cy="248" r="46" />
+      <circle cx="640" cy="270" r="40" />
+    </g>
+    <text x="480" y="210" text-anchor="middle" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="40" fill="#0a357a">
+      饿了么活动运营
+    </text>
+    <text x="480" y="260" text-anchor="middle" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="22" fill="#0a357a" opacity="0.8">
+      拉新 · 提频 · 降本 的策略与实践
+    </text>
+  </g>
+</svg>

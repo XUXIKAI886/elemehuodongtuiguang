@@ -1,0 +1,36 @@
+<svg width="960" height="480" viewBox="0 0 960 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="p1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f91ff" />
+      <stop offset="100%" stop-color="#8c4bff" />
+    </linearGradient>
+    <linearGradient id="p2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7a45" />
+      <stop offset="100%" stop-color="#ffd36f" />
+    </linearGradient>
+    <clipPath id="clipPromo">
+      <rect x="0" y="0" width="960" height="480" rx="32" ry="32" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clipPromo)" fill="none">
+    <rect width="960" height="480" fill="#f8f7ff" />
+    <path d="M0 280 C220 240 320 420 600 340 C820 280 840 460 960 420 V480 H0 Z" fill="url(#p1)" opacity="0.2" />
+    <path d="M0 120 C200 40 360 160 520 80 C700 -10 820 80 960 20 V0 H0 Z" fill="url(#p2)" opacity="0.18" />
+    <g fill="#ffffff" stroke="#1f91ff" stroke-width="2" opacity="0.85">
+      <rect x="150" y="180" width="220" height="150" rx="18" />
+      <rect x="410" y="210" width="220" height="150" rx="18" />
+      <rect x="670" y="165" width="180" height="170" rx="18" />
+    </g>
+    <g fill="#1f91ff" opacity="0.75">
+      <circle cx="260" cy="255" r="40" />
+      <circle cx="520" cy="260" r="34" />
+      <circle cx="760" cy="250" r="38" />
+    </g>
+    <text x="480" y="210" text-anchor="middle" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="40" fill="#1c2a5e">
+      饿了么推广提量
+    </text>
+    <text x="480" y="258" text-anchor="middle" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1c2a5e" opacity="0.8">
+      资源覆盖 · 精准投放 · 高效增长
+    </text>
+  </g>
+</svg>
